@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="../Program/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <body>
+    <nav class="navbar">
+      <a href="./Index.html" class="Logo_link">
+        <h1 class="logo">
+          <button>O</button><button>k</button><button>e</button>
+        </h1>
+      </a>
+
+      <ul class="nav_tab">
+        <li class="nav_lists">
+          <a href="#herosection" class="nav_links"> Intro </a>
+        </li>
+        <li class="nav_lists">
+          <a href="#about" class="nav_links">About Me</a>
+        </li>
+        <li class="nav_lists">
+          <a href="#Projects" class="nav_links">Projects & complements</a>
+        </li>
+        <li class="nav_lists">
+          <a href="#Contacts" class="nav_links">Contact Me</a>
+        </li>
+        <li class="nav_lists">
+          <div id="google_translate_element"></div>
+        </li>
+        <li class="nav_lists dark_light_mode">
+          <button id="theme-toggle">
+            <div class="toggle-box">
+              <div class="toggle-btn">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-regular fa-moon"></i>
+              </div>
+            </div>
+          </button>
+        </li>
+      </ul>
+
+      <button id="navbar_toggle_btn" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Navbar end here -->
+
+    <div class="container">
+      <section id="herosection" class="hero_section">
+        <div class="row">
+          <div class="col-l-6 col-m-6 col-s-12">
+            <div class="herosection_content">
+              <h1 class="herosection_title animate__animated">
+                Hello <br />
+                <span class="herosection_typewritter"></span>
+              </h1>
+              <br />
+              <p class="herosection_paragraph">
+                I'm 20 years old Computer Science student <br />
+                who have specialized in Web design and development.<br />
+                We could figure out animations, layout designs, color
+                compositions and create aesthetic <br />
+                & interactive websites together within short amount of time!
+              </p>
+              <br />
+              <h3><b>Skillset :</b></h3>
+              <br />
+              <button class="skillset_btns">HTML</button>
+              <button class="skillset_btns">CSS</button>
+              <button class="skillset_btns">JS</button>
+              <button class="skillset_btns">Documentation</button>
+              <br />
+              <button class="skillset_btns">Bootstrap</button>
+              <button class="skillset_btns">PHP</button>
+              <button class="skillset_btns">MySQL</button>
+              <button class="skillset_btns">UI / UX</button>
+              <button class="skillset_btns">Git</button>
+            </div>
+            <!-- herosection content end here -->
+
+            <br />
+          </div>
+          <div class="col-l-6 col-m-6 col-s-12">
+            <div
+              class="herosection_bg_pattern animate__animated"
+              data-aos="animate__fadeIn"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about_me">
+        <div class="row">
+          <div class="col-l-2 col-m-12 col-s-12"></div>
+          <div class="col-l-8 col-m-12 col-s-12">
+            <div class="about_content">
+              <h1>About Me</h1>
+              <div class="timeline_container">
+                <div class="timeline">
+                  <div class="timeline_dots"></div>
+                  <div class="timeline_dots"></div>
+                  <div class="timeline_dots"></div>
+                  <div class="timeline_dots"></div>
+                </div>
+                <!--  -->
+                <div class="row">
+                  <div class="col-l-6 col-m-9 col-s-12">
+                    <div class="timeline_boxes left_boxes">
+                      <div
+                        class="animate__animated boxes"
+                        data-aos="animate__fadeInLeft"
+                      >
+                        <h1>High school(2010-2020)</h1>
+                        <p>
+                          Graduated From Practicising High School Yangon
+                          University of Education (T.T.C) at 2020.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-l-6 col-m-12 col-s-12"></div>
+                </div>
+                <!--  -->
+                <div class="row">
+                  <div class="col-l-6 col-m-12 col-s-12"></div>
+                  <div class="col-l-6 col-m-9 col-s-12">
+                    <div class="timeline_boxes">
+                      <div
+                        class="animate__animated boxes"
+                        data-aos="animate__fadeInRight"
+                      >
+                        <h1>
+                          Information Technology Passport Examination of
+                          ITPEC(Passed on 23<sup>rd</sup> October 2022)
+                        </h1>
+                        <p>
+                          It tooks four months for preparation to take exam and
+                          took exam on 23<sup>rd</sup> October. More about
+                          <a href="https://itpec.org/">ITPEC</a>.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="row">
+                  <div class="col-l-6 col-m-9 col-s-12">
+                    <div class="timeline_boxes left_boxes">
+                      <div
+                        class="animate__animated boxes"
+                        data-aos="animate__fadeInLeft"
+                      >
+                        <h1>
+                          Fundamental Information Technology Engineering
+                          Exam(Passed on 30<sup>th</sup> April 2023).
+                        </h1>
+                        <p>
+                          Right after passed the IP Exam,started preparation for
+                          FE exam. It took me six months and passed the both AM
+                          and PM exam at the same time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-l-6 col-m-12 col-s-12"></div>
+                </div>
+                <!--  -->
+                <div class="row">
+                  <div class="col-l-6 col-m-12 col-s-12"></div>
+                  <div class="col-l-6 col-m-9 col-s-12">
+                    <div class="timeline_boxes">
+                      <div
+                        class="animate__animated boxes"
+                        data-aos="animate__fadeInRight"
+                      >
+                        <h1>Level 4 diploma in computing</h1>
+                        <p>
+                          Studied at the KMD Institute, Myanmar for NCC level 4
+                          diploma in computing and passed with all
+                          distinction.Currently, Attending KMD from online for
+                          Level 5 diploma in computing.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-l-2 col-m-12 col-s-12"></div>
+        </div>
+      </section>
+      <section id="Projects">
+        <h1>Projects & Complements</h1>
+        <div class="swiper_container">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/Matriculation.jpeg"
+                    alt="Matriculation Exam passed certificate"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/IP.jpeg"
+                    alt="ITPEC's IP Exam passed Certificate"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/FE.jpeg"
+                    alt="ITPEC's FE Exam passed Certificate"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/L4DC.jpeg"
+                    alt="NCC's L4DC passed Certificate"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/L4DC Results.jpeg"
+                    alt="NCC's L4DC passed Results"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/Desktop_view.jpeg"
+                    alt="Portofolio Website(HTML,CSS & JS)"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/standingDesk_Home.jpeg"
+                    alt="Standing Desk Website(HTML,CSS)"
+                  />
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="modal_btn">
+                  <img
+                    src="../Images/SocialMediaCampaign.jpeg"
+                    alt="Social Media Campaign Website(HTML,CSS,JS and PHP)"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section id="Contacts">
+        <div class="row">
+          <div class="col-l-6 col-m-6 col-s-12">
+            <div class="Contact_Contents">
+              <h1>Contact Me</h1>
+              <br />
+              <p>#Phone_No</p>
+              <div>
+                {
+                <p>+65 8350 4497;</p>
+                <p>+959 455 554 003;</p>
+                }
+              </div>
+              <br />
+              <p>#Address</p>
+              <div>
+                {
+                <p>
+                  Block 938, Jurong West St 91, <br />
+                  Nanyang Ruby, #5-393 , Singapore 640938;
+                </p>
+                }
+              </div>
+
+              <br />
+              <p>
+                let Git_Hub = "
+                <a href="https://github.com/TheinOke">Thein Oke</a> ";
+              </p>
+              <br />
+              <p>
+                let Linkedin = "<a
+                  href="https://www.linkedin.com/in/th%C3%A8in-oke-b54796279/"
+                  >Thein Oke</a
+                >";
+              </p>
+            </div>
+          </div>
+          <div class="col-l-6 col-m-6 col-s-12">
+            <div class="Eye_container">
+              <div
+                class="eye_container_bg_pattern1 animate__animated animate__delay-50ms"
+                data-aos="animate__fadeInBottomRight"
+              ></div>
+              <div
+                class="eye_container_bg_pattern2 animate__animated animate__delay-50ms"
+                data-aos="animate__fadeInDown"
+              ></div>
+              <div
+                class="eye_container_bg_pattern3 animate__animated animate__delay-50ms"
+                data-aos="animate__fadeInLeft"
+              ></div>
+              <div class="stage animate__animated" data-aos="animate__zoomIn">
+                <figure class="ball">
+                  <span class="shadow"></span>
+                  <span class="iris">
+                    <div class="pupils"></div>
+                  </span>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="modal_container">
+      <div class="modal_content">
+        <span class="close_btn">X</span>
+        <h1 class="modal_content_title"></h1>
+        <img src="" alt="" class="modal_content_img" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+    <script type="text/javascript">
+      const typed = new Typed(".herosection_typewritter", {
+        strings: ["I'm Thein Oke Paing Soe", "I'm Web Developer."],
+        typeSpeed: 50,
+        smartBackspace: true,
+      });
+      AOS.init({
+        useClassNames: true,
+        initClassName: false,
+        animatedClassName: "animated",
+      });
+
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 3,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        keyboard: true,
+        loop: false,
+      });
+
+      let modalBtns = document.querySelectorAll(".modal_btn");
+
+      let modal_container = document.querySelector(".modal_container");
+
+      let close_btn = document.querySelector(".close_btn");
+
+      close_btn.addEventListener("click", () => {
+        modal_container.classList.remove("active");
+      });
+
+      modalBtns.forEach((link) => {
+        link.addEventListener("click", function () {
+          modal_container.classList.add("active");
+          let img = link.querySelector("img");
+          let imgsrc = img.getAttribute("src");
+          let imgtxt = img.getAttribute("alt");
+          console.log(imgsrc);
+          console.log(imgtxt);
+
+          let modal_title = document.querySelector(".modal_content_title");
+          modal_title.innerHTML = imgtxt;
+          let modal_image = document.querySelector(".modal_content_img");
+          modal_image.src = `${imgsrc}`;
+        });
+      });
+
+      window.onclick = function (e) {
+        if (e.target == modal_container) {
+          modal_container.classList.remove("active");
+        }
+      };
+    </script>
+  </body>
+</html>
